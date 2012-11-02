@@ -39,9 +39,17 @@
 .colossal    { width: 100%; }
 
 /* Forms */
-label, input, select {
+form p {
+   overflow: hidden;
+}
+label, input, select, textarea {
    display: block;
    width: 100%;
+}
+textarea {
+   height: 64px;
+   max-height: 192px;
+   max-width: 100%;
 }
 label {
    padding: 0 0 0 4px;
@@ -51,6 +59,21 @@ input {
 
    height: 32px;
    padding: 0px 4px;
+}
+textarea {
+   padding: 4px;
+}
+input[type="radio"], input[type="checkbox"] {
+   float: left;
+   margin: 0 0 0 4px;
+   width: 16px;
+}
+input[type="radio"] + label, input[type="checkbox"] + label {
+   line-height: 30px;
+
+   float: left;
+   margin: 0 16px 0 0;
+   width: auto;
 }
 
 form button, form a {

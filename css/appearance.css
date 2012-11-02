@@ -13,7 +13,7 @@
 }
 
 /* Forms */
-input, select {
+input, select, textarea {
    border: #ccc 1px solid;
    border-radius: 4px;
 }
