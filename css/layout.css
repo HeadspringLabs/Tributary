@@ -7,11 +7,15 @@
 }
 
 .group {
+   clear: both;
    display: block;
    margin-left: auto;
    margin-right: auto;
    overflow: hidden;
-   width: 960px;
+}
+
+.group .group {
+   margin-right: -16px;
 }
 
 .panel {
@@ -20,6 +24,9 @@
    padding: 0 16px 0 0;
    margin: 0 0 16px;
 }
+   .panel .panel {
+      margin-bottom: 0;
+   }
 
    /* Move to scoped */
    .panel div {
