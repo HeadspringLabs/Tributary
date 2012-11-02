@@ -1,4 +1,22 @@
-body {
-   background-color: #d4d5d9; /* 235, 5%, 70% */
-   color: #434559;
+.btn {
+   background-color: #eee;
+   border: #ccc 1px solid;
+   border-radius: 4px;
+   cursor: pointer;
+
+   line-height: 30px;
+
+   display: block;
+   float: left;
+   height: 32px;
+   padding: 0 24px;
+}
+
+/* Forms */
+input, select {
+   border: #ccc 1px solid;
+   border-radius: 4px;
+}
+select {
+   height: 32px;
 }

@@ -1,4 +1,4 @@
-body {
+body, input {
    font-family: Lato, sans-serif;
    line-height: 1.618;
    text-rendering: optimizeLegibility;
@@ -16,4 +16,29 @@ h4 { font-size: 20px; }
 h5 { font-size: 18px; }
 h6 { font-size: 16px; }
 
-p  { font-size: 16px; }
+p  {
+   font-size: 16px;
+   margin: 0 0 8px; }
+
+/* Forms */
+legend {
+   text-transform: uppercase;
+   margin: 0 0 8px;
+}
+
+label, input, select {
+   font-size: 16px;
+}
+
+button, .btn {
+   font-size: 13px;
+}
+
+form a {
+   color: #999;
+   font-size: 13px;
+   text-decoration: none;
+}
+   form a:hover {
+      text-decoration: underline;
+   }

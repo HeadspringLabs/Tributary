@@ -7,6 +7,7 @@
    <link rel="stylesheet" href="css/global.css">
    <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/typography.css">
+   <link rel="stylesheet" href="css/appearance.css">
 </head>
 
 <body>
@@ -17,7 +18,12 @@
       <ol>
          <li><a href="#grid">Grid</a></li>
          <li><a href="#typography">Typography</a></li>
-         <li><a href="#forms">Forms</a></li>
+         <li>
+            <a href="#forms">Forms</a>
+            <ol>
+               <li><a href="#forms-buttons">Buttons</a></li>
+            </ol>
+         </li>
       </ol>
    </header>
    
@@ -94,7 +100,34 @@
    
    <section class="constrained group">
       <h2 id="forms">Forms</h2>
-      <p>TBD.</p>
+      <form class="group">
+         <fieldset class="panel small">
+            <legend>Personal Information</legend>
+            <p>
+               <label for="full-name">Full Name</label>
+               <input id="full-name" placeholder="John M. Sample" />
+            </p>
+            <p>
+               <label for="email">Email Address</label>
+               <input id="email" placeholder="john@sample.com" type="email" />
+            </p>
+            <p>
+               <label>Department</label>
+               <select>
+                  <option>Engineering</option>
+                  <option>Design/UX</option>
+                  <option>Sales</option>
+                  <option>Executive</option>
+               </select>
+            </p>
+         </fieldset>
+         <p class="group">
+            <button class="btn">Save Employee</button>
+            <a href="#">Return to List</a>
+         </p>
+      </form>
+      <h3 id="forms-buttons">Buttons</h3>
+      <p><a class="btn btn-primary">Primary</a></p>
    </section>
    
    <footer class="constrained group">
