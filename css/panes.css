@@ -1,9 +1,19 @@
-.row {
+.constrained {
    display: block;
+   margin: 0 auto;
+   padding: 16px 0 0 16px;
    overflow: hidden;
+   width: 960px;
 }
 
-.pane {
+.group {
+   display: block;
+   margin: 0 auto;
+   overflow: hidden;
+   width: 960px;
+}
+
+.panel {
    display: block;
    float: left;
    padding: 0 16px 0 0;
@@ -11,7 +21,7 @@
 }
 
    /* Move to scoped */
-   .pane div {
+   .panel div {
       background: #eee;
       padding: 0 8px;
    }
