@@ -38,6 +38,11 @@
 .gargantuan  { width: 91.666%; }
 .colossal    { width: 100%; }
 
+/* Buttons */
+p .btn {
+   margin-right: 8px;
+}
+
 /* Forms */
 form p {
    overflow: hidden;
