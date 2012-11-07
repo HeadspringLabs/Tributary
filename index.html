@@ -200,10 +200,18 @@
       <h3 id="forms-buttons">Buttons</h3>
       <p>Buttons can be easily styled by adding the <code>.btn</code> class to an element. Primary actions&mdash;most pages will have only one&mdash;can be signified by adding <code>.btn-primary</code>, which adds additional styling.</p>
       <p>It's important to style as buttons only those elements that directly respond to user interactions. Styling visual elements as buttons causes confusion.</p>
-      <p>
+      <p class="group">
          <a class="btn btn-primary">Primary</a>
          <a class="btn">Secondary</a>
       </p>
+      <h4>Buttons in Forms</h4>
+      <p>Forms typically have two types of actions: one to submit the form, and another to either reset it, or return to a previous location. Tributary provides a way of building confidence in the former while not preventing the latter.</p>
+      <form>
+         <p class="group">
+            <button class="btn btn-primary">Submit</button>
+            <a href="#">Reset</a>
+         </p>
+      </form>
    </section>
    
    <footer class="constrained group">
