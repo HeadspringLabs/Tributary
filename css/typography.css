@@ -26,7 +26,11 @@ legend {
    margin: 0 0 8px;
 }
 
-label, input, select, textarea {
+label {
+   font-size: 14px;
+}
+
+input, select, textarea {
    font-size: 16px;
 }
 
