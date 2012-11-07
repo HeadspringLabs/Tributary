@@ -24,25 +24,18 @@
    padding: 0 16px 0 0;
    margin: 0 0 16px;
 }
-   .panel .panel {
-      margin-bottom: 0;
-   }
 
-   /* Move to scoped */
-   .panel div {
-      background: #eee;
-      padding: 0 8px;
-   }
-
-.fine        { width: 10%; }
-.diminuitive { width: 20%; }
-.tiny        { width: 25%; }
-.small       { width: 33.333%; }
+.fine        { width: 8.333%; }
+.miniscule   { width: 16.666%; }
+.diminuitive { width: 25%; }
+.tiny        { width: 33.333%; }
+.small       { width: 41.666%; }
 .medium      { width: 50%; }
-.large       { width: 66.666%; }
-.huge        { width: 75%; }
-.massive     { width: 80%; }
-.gargantuan  { width: 90%; }
+.large       { width: 58.333%; }
+.huge        { width: 66.666%; }
+.massive     { width: 75%; }
+.immense     { width: 83.333%; }
+.gargantuan  { width: 91.666%; }
 .colossal    { width: 100%; }
 
 /* Forms */

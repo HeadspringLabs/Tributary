@@ -8,6 +8,11 @@
    <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/typography.css">
    <link rel="stylesheet" href="css/appearance.css">
+   <style>
+      .panel-example {
+         background-color: #eee;
+         padding: 0 8px; }
+   </style>
 </head>
 
 <body>
@@ -29,61 +34,92 @@
    
    <section class="constrained group">
       <h2 id="grid">Grid</h2>
-      <p>TBD.</p>
-      <h3>The Layout Panel Sizes</h3>
+      <p>The Tributary grid is based on a twelve-column layout</p>
+      <h3>Layout Panels</h3>
       <ol>
-         <li class="group"><div class="panel fine"><div>Fine</div></div></li>
-         <li class="group"><div class="panel diminuitive"><div>Diminuitive</div></div></li>
-         <li class="group"><div class="panel tiny"><div>Tiny</div></div></li>
-         <li class="group"><div class="panel small"><div>Small</div></div></li>
-         <li class="group"><div class="panel medium"><div>Medium</div></div></li>
-         <li class="group"><div class="panel large"><div>Large</div></div></li>
-         <li class="group"><div class="panel huge"><div>Huge</div></div></li>
-         <li class="group"><div class="panel massive"><div>Massive</div></div></li>
-         <li class="group"><div class="panel gargantuan"><div>Gargantuan</div></div></li>
-         <li class="group"><div class="panel colossal"><div>Colossal</div></div></li>
+         <li class="group"><div class="panel fine"><div class="panel-example">Fine</div></div></li>
+         <li class="group"><div class="panel miniscule"><div class="panel-example">Miniscule</div></div></li>
+         <li class="group"><div class="panel diminuitive"><div class="panel-example">Diminuitive</div></div></li>
+         <li class="group"><div class="panel tiny"><div class="panel-example">Tiny</div></div></li>
+         <li class="group"><div class="panel small"><div class="panel-example">Small</div></div></li>
+         <li class="group"><div class="panel medium"><div class="panel-example">Medium</div></div></li>
+         <li class="group"><div class="panel large"><div class="panel-example">Large</div></div></li>
+         <li class="group"><div class="panel huge"><div class="panel-example">Huge</div></div></li>
+         <li class="group"><div class="panel massive"><div class="panel-example">Massive</div></div></li>
+         <li class="group"><div class="panel immense"><div class="panel-example">Immense</div></div></li>
+         <li class="group"><div class="panel gargantuan"><div class="panel-example">Gargantuan</div></div></li>
+         <li class="group"><div class="panel colossal"><div class="panel-example">Colossal</div></div></li>
       </ol>
       
       <h4>Combining Layout Panels</h4>
+      <p>Layout panels can be combined&mdash;and, optionally, grouped with the <code>.group</code> class&mdash;into numerous combinations.</p>
       <div class="group">
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel gargantuan"><div>Gargantuan</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel gargantuan"><div class="panel-example">Gargantuan</div></div>
       </div>
       <div class="group">
-         <div class="panel diminuitive"><div>Diminuitive</div></div>
-         <div class="panel massive"><div>Massive</div></div>
+         <div class="panel miniscule"><div class="panel-example">Miniscule</div></div>
+         <div class="panel immense"><div class="panel-example">Immense</div></div>
       </div>
       <div class="group">
-         <div class="panel tiny"><div>Tiny</div></div>
-         <div class="panel huge"><div>Huge</div></div>
+         <div class="panel diminuitive"><div class="panel-example">Diminuitive</div></div>
+         <div class="panel massive"><div class="panel-example">Massive</div></div>
       </div>
       <div class="group">
-         <div class="panel small"><div>Small</div></div>
-         <div class="panel large"><div>Large</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel huge"><div class="panel-example">Huge</div></div>
       </div>
       <div class="group">
-         <div class="panel medium"><div>Medium</div></div>
-         <div class="panel medium"><div>Medium</div></div>
+         <div class="panel small"><div class="panel-example">Small</div></div>
+         <div class="panel large"><div class="panel-example">Large</div></div>
       </div>
       <div class="group">
-         <div class="panel tiny"><div>Tiny</div></div>
-         <div class="panel tiny"><div>Tiny</div></div>
-         <div class="panel tiny"><div>Tiny</div></div>
-         <div class="panel tiny"><div>Tiny</div></div>
+         <div class="panel medium"><div class="panel-example">Medium</div></div>
+         <div class="panel medium"><div class="panel-example">Medium</div></div>
       </div>
       <div class="group">
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
-         <div class="panel fine"><div>Fine</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
       </div>
-      
+      <div class="group">
+         <div class="panel diminuitive"><div class="panel-example">Diminuitive</div></div>
+         <div class="panel diminuitive"><div class="panel-example">Diminuitive</div></div>
+         <div class="panel diminuitive"><div class="panel-example">Diminuitive</div></div>
+         <div class="panel diminuitive"><div class="panel-example">Diminuitive</div></div>
+      </div>
+      <div class="group">
+         <div class="panel miniscule"><div class="panel-example">Miniscule</div></div>
+         <div class="panel miniscule"><div class="panel-example">Miniscule</div></div>
+         <div class="panel miniscule"><div class="panel-example">Miniscule</div></div>
+         <div class="panel miniscule"><div class="panel-example">Miniscule</div></div>
+         <div class="panel miniscule"><div class="panel-example">Miniscule</div></div>
+         <div class="panel miniscule"><div class="panel-example">Miniscule</div></div>
+      </div>
+      <div class="group">
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+         <div class="panel fine"><div class="panel-example">Fine</div></div>
+      </div>
+      <p>Within a <code>.group</code>, layout panels will wrap automatically, without the need for additional explicit <code>.group</code> elements.</p>
+      <div class="group">
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+         <div class="panel tiny"><div class="panel-example">Tiny</div></div>
+      </div>
+
    </section>
 
    <section class="constrained group">
