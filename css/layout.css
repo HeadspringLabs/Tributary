@@ -1,3 +1,14 @@
+/*
+
+   Contents
+   1. Grid
+   2. Typography
+   3. Forms
+   4. Tables
+   5. Lists
+
+*/
+
 .constrained {
    display: block;
    margin: 0 auto;
@@ -38,12 +49,7 @@
 .gargantuan  { width: 91.666%; }
 .colossal    { width: 100%; }
 
-/* Buttons */
-p .btn {
-   margin-right: 8px;
-}
-
-/* Forms */
+/* 3. Forms */
 form p {
    overflow: hidden;
 }
@@ -68,6 +74,10 @@ input {
 textarea {
    padding: 4px;
 }
+select {
+   height: 32px;
+}
+
 input[type="radio"], input[type="checkbox"] {
    float: left;
    margin: 0 0 0 4px;
@@ -91,3 +101,29 @@ form a {
    float: left;
    height: 32px;
 }
+
+   /* 3.1. Buttons */
+   p .btn {
+      margin-right: 8px;
+   }
+
+/* 4. Tables */
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+th, td {
+   padding: 0 4px;
+}
+
+/* 5. Lists */
+ol, ul {
+   list-style-type: none;
+}
+
+/* TODO: I don't like the descriptor "styled" and would like to replace it. */
+ol.styled, ul.styled {
+   padding-left: 24px;
+}
+   ol.styled { list-style-type: decimal; }
+   ol.styled ol { list-style-type: lower-alpha; }

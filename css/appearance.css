@@ -11,12 +11,38 @@
    height: 32px;
    padding: 0 24px;
 }
+   .btn:hover, .btn:focus {
+      background-color: #ddd;
+   }
+   .btn:active {
+      background-color: #ccc;
+   }
 
-/* Forms */
+/* 3. Forms */
 input, select, textarea {
-   border: #ccc 1px solid;
+   border: #ddd 1px solid;
    border-radius: 4px;
 }
-select {
-   height: 32px;
+input:focus, select:focus, textarea:focus {
+   border: #ccc 1px solid;
+   box-shadow: none;
+}
+
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+
+:-moz-placeholder {
+   color: #ccc;
+}
+
+/* 4. Tables */
+thead tr, tbody tr {
+   border-bottom: solid 1px #ccc;
+}
+thead, tfoot {
+   background: #ddd;
+}
+tbody tr:nth-child(even) {
+   background: #eee;
 }
