@@ -2,18 +2,26 @@
 
 $white: hsl(0, 0%, 100%);
 
-$brightest: hsl(0, 0%, 98%);
-$brighter: hsl(0, 0%, 95%);
-$bright: hsl(0, 0%, 85%);
+$background-brightest: hsl(0, 0%, 98%);
+$background-brighter: hsl(0, 0%, 95%);
+$background-bright: hsl(0, 0%, 85%);
 
-$lightest: hsl(0, 0%, 80%);
+$background-lightest: hsl(0, 0%, 80%);
 
+$background-dark: hsl(0, 0%, 45%);
+$background-darker: hsl(0, 0%, 40%);
+$background-darkest: hsl(0, 0%, 30%);
 
+$cerulean: hsl(200, 50%, 42.5%);
 
 // Settings (safe to modify)
 
-$button-border: $lightest;
-$button-normal: $white;
-$button-active: $brightest;
-$button-perspective: $brighter;
-$button-shadow: $bright;
+$font: Lato, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$button-border: $background-lightest;
+$button-background: $white;
+$button-active: $background-brightest;
+$button-perspective: $background-brighter;
+$button-shadow: $background-bright;
+$button-normal: $background-dark;
+$button-primary: $cerulean;
