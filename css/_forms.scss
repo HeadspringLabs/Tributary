@@ -1,4 +1,3 @@
-/* 3. Forms */
 input, select, textarea {
    border: #ddd 1px solid;
    border-radius: 4px;
@@ -19,15 +18,4 @@ p.required label::after {
 
 :-moz-placeholder {
    color: #ccc;
-}
-
-/* 4. Tables */
-thead tr, tbody tr {
-   border-bottom: solid 1px #ccc;
-}
-thead, tfoot {
-   background: #ddd;
-}
-tbody tr:nth-child(even) {
-   background: #eee;
 }

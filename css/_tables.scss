@@ -1,0 +1,9 @@
+thead tr, tbody tr {
+   border-bottom: solid 1px #ccc;
+}
+thead, tfoot {
+   background: #ddd;
+}
+tbody tr:nth-child(even) {
+   background: #eee;
+}
