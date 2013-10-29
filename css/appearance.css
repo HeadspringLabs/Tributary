@@ -28,6 +28,11 @@ input:focus, select:focus, textarea:focus {
    box-shadow: none;
 }
 
+p.required label::after {
+   content: " *";
+   color: #c00;
+}
+
 ::-webkit-input-placeholder {
    color: #ccc;
 }

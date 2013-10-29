@@ -36,6 +36,8 @@
    margin: 0 0 16px;
 }
 
+fieldset.panel { margin-bottom: 0; }
+
 .fine        { width: 8.333%; }
 .miniscule   { width: 16.666%; }
 .diminuitive { width: 25%; }
@@ -52,6 +54,9 @@
 /* 3. Forms */
 form p {
    overflow: hidden;
+}
+form p.group .panel {
+   margin-bottom: 0;
 }
 label, input, select, textarea {
    display: block;
