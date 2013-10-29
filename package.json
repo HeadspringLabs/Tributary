@@ -1,0 +1,12 @@
+{
+  "name": "Tributary",
+  "version": "0.0.0",
+  "description": "Headspring's language and guide for visual web design and layout.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HeadspringLabs/Tributary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HeadspringLabs/Tributary/issues"
+  }
+}
