@@ -1,7 +1,8 @@
-.btn {
-  background-color: #eee;
-  border: #ccc 1px solid;
+.button {
+  background-color: $button-normal;
+  border: $button-border 1px solid;
   border-radius: 4px;
+  box-shadow: inset 0 -2px 0 $button-perspective;
   cursor: pointer;
 
   line-height: 30px;
@@ -11,11 +12,8 @@
   height: 32px;
   padding: 0 24px;
 
-  &:hover, &:focus {
-    background-color: #ddd;
-  }
-
   &:active {
-    background-color: #ccc;
+    background-color: $button-active;
+    box-shadow: inset 0 0 5px $button-shadow;
   }
 }

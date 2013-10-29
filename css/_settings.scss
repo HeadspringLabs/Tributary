@@ -1,0 +1,19 @@
+// Base Colors (don't modify)
+
+$white: hsl(0, 0%, 100%);
+
+$brightest: hsl(0, 0%, 98%);
+$brighter: hsl(0, 0%, 95%);
+$bright: hsl(0, 0%, 85%);
+
+$lightest: hsl(0, 0%, 80%);
+
+
+
+// Settings (safe to modify)
+
+$button-border: $lightest;
+$button-normal: $white;
+$button-active: $brightest;
+$button-perspective: $brighter;
+$button-shadow: $bright;
