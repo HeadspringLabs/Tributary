@@ -1,9 +1,33 @@
 thead tr, tbody tr {
-   border-bottom: solid 1px #ccc;
+   border-bottom: solid 1px hsl(220, 30%, 75%);
 }
+
 thead, tfoot {
-   background: #ddd;
+   background: hsla(220, 30%, 50%, 0.2);
+   font-size: 0.9rem;
 }
+
 tbody tr:nth-child(even) {
-   background: #eee;
+   background: hsla(220, 30%, 50%, 0.05);
 }
+
+tbody {
+  font-size: 0.8rem;
+}
+
+  tbody:hover tr:nth-child(even) {
+    background-color: hsla(220, 30%, 50%, 0.03);
+  }
+
+tbody tr:hover, tbody:hover tr:nth-child(even):hover {
+  background-color: hsla(220, 30%, 50%, 0.1);
+}
+
+th, td {
+  padding: 0.2rem 0.4rem;
+
+  text-align: left;
+}
+
+td { color: hsl(220, 30%, 50%); }
+th { color: hsl(220, 30%, 30%); }
